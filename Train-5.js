@@ -7,11 +7,6 @@ const products = [
   { id: 3, title: "Desk", price: 300, category: "furniture", available: true }
 
 ];
-const updatedProducts = products.map(product => 
-    product.id===3
-    ? { ...product, price:100 }
-    :product
-);
-// using map,Ternary Operator
-// ,spread for changing id=3 price
-console.log(updatedProducts)
+const availableProducts = products.filter(product =>
+    product.available === 
+)
