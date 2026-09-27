@@ -8,4 +8,5 @@ const products = [
 
 ];
 const result = products.some(product => product.available === false);
-// Using some function 
+// Using some function beacuse the question asks if there
+//  is one available on this bet so we use some 
