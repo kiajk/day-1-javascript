@@ -7,5 +7,6 @@ const products = [
   { id: 3, title: "Desk", price: 300, category: "furniture", available: true }
 
 ];
-const product = products.find(product => product.id ===3)
-// Using find function to find a specific product
+const totalPrice = products.reduce((sum, product) =>{
+    return sum + product.price;
+},0);
