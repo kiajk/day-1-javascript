@@ -10,4 +10,6 @@ const products = [
 const sortedPrice = products.sort((a,b) => {
     return b.price - a.price;
 });
-   
+// Using sort function beacuse we want to sort the prices
+// if we wanted it to be low to high we coul used 
+// a.price - b.price   
