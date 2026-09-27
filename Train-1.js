@@ -18,4 +18,7 @@ const newProducts = [
         category:"electronics",
         available:true
     }
-]
+];
+console.log(newProducts)
+// using spread operator to 
+// add new products to product list without losing the original list.
