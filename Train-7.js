@@ -7,7 +7,4 @@ const products = [
   { id: 3, title: "Desk", price: 300, category: "furniture", available: true }
 
 ];
-const titles = products.map( product => product.title );
-// Using map function to
-//  search all products and make a new array
-console.log(titles)
+const product = products.find(product => product.id ===3)
