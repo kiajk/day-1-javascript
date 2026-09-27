@@ -7,8 +7,6 @@ const products = [
   { id: 3, title: "Desk", price: 300, category: "furniture", available: true }
 
 ];
-const availableProducts = products.filter(product =>
-    product.available === true
-);
-// Using filter function to bring back the available products 
-console.log(availableProducts)
+const titles = products.map( product => product.title );
+// Using map function 
+console.log(titles)
